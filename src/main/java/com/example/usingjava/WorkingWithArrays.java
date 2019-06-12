@@ -5,6 +5,10 @@ import java.util.List;
 
 public class WorkingWithArrays {
 
+	/**
+	 * Two arrays are considered equal if each number from array b has
+	 * at least one number in array a that is equal to each number in array b when squared.
+	 * */
 	static boolean areTheSame(int[] a, int[] b){
 		List<Integer> notFound = new ArrayList<>();
 		for (int i = 0; i<b.length; i++) {
